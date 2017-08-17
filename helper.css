@@ -7,6 +7,10 @@
   text-align: right;
 }
 
+.u-text-left {
+  text-align: left;
+}
+
 .u-text-justify {
   text-align: justify;
 }
@@ -108,6 +112,17 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.u-img-border-double {
+  padding:1px;
+  border:1px solid #000;
+  background-color:#fff;
+}
+
+.u-img-border {
+  padding:1px;
+  border:1px solid #000;
 }
 
 
