@@ -1,0 +1,39 @@
+.chip {
+  color: #F1B444;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-transform: none;
+}
+
+.h-chip {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 5px 10px;
+	border-radius: 4px;
+	text-transform: none;
+}
+
+.chip:last-child {
+  margin-right: 0px;
+}
+
+h2.chip {
+  display: inline;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.chip-rectangle {
+  color: #F1B444;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  padding: 4px 5px;
+}
+
+.big-chip-rectangle {
+  color: #F1B444;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+  padding: 5px 6px;
+}

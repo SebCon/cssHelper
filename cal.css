@@ -1,0 +1,29 @@
+.month-flag {
+    width: 90%;
+    margin: auto;
+}
+
+
+.month-flag .month {
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: rgba(224,16,0,.8);
+  color: #FFF;
+  height: 33px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 33px;
+}
+
+
+.month-flag .date {
+  font-weight: 300;
+  color: grey;
+  background-color: #fff;
+  font-size: 32px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid #e5e5e5;
+  border-top-width: 0;
+  height: 65px;
+}

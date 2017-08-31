@@ -1,0 +1,130 @@
+
+
+.button-anmelden {
+  width: 90%;
+}
+
+
+.field:not(:last-child) {
+    margin-bottom: .75rem;
+}
+
+
+.field.is-grouped {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+
+.field.is-grouped>.control.is-expanded {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+
+
+.control.has-icon:not(.has-icon-right) input, .control.has-icon:not(.has-icon-right) select, .control.has-icon:not(.has-icon-right) textarea {
+    padding-left: 3em;
+    height: 50px;
+}
+
+
+.control.has-icon:not(.has-icon-right) .icon {
+    left: 6px;
+    top: 15px;
+}
+
+.control.has-icon:not(.has-icon-right) select + .icon {
+    left: 6px;
+    top: 6px;
+}
+
+.control.has-icon .icon {
+    color: #dbdbdb;
+    height: 2.25em;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 2.25em;
+    z-index: 4;
+}
+
+.control {
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+.icon {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.required {
+  color: #666666;
+}
+
+.full-width-input {
+  width: calc(100% - 3em - 10px);
+}
+
+.full-width-textarea {
+  width: calc(100% - 0.625em - 10px);
+}
+
+.full-width-select {
+  width: 100%;
+}
+
+.textarea {
+  display: block;
+  max-height: 600px;
+  max-width: 100%;
+  min-height: 120px;
+  padding: .625em;
+  resize: vertical;
+}
+
+
+.badge-free {
+    background-color: #ded;
+    color: #060;
+    font-weight: 300;
+}
+
+.badge {
+    margin-left: 20px;
+    padding: .5em .8em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 3px;
+}
+
+
+@media (min-width: 0px) and (max-width: 1170px) {
+
+  .control.has-icon:not(.has-icon-right) input + .icon, .control.has-icon:not(.has-icon-right) textarea + .icon {
+    left: 2px;
+    top: 15px;
+  }
+}
