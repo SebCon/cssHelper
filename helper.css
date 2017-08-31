@@ -125,6 +125,10 @@
   border:1px solid #000;
 }
 
+.u-img-border-radius {
+  border-radius: 5px;
+}
+
 
 /************************************* HR *****************************************/
 
@@ -290,7 +294,7 @@
 }
 
 
-/************************************ FONT **************************************/
+/************************************ JUNBOTRON **************************************/
 
 
 
@@ -308,6 +312,15 @@
 }
 
 
+
+/****************************** RESPONSIVE ADJUSTMENT *********************************/
+
+
+.u-hidden-sm {
+  display: block;
+}
+
+
 @media (min-width: 0px) and (max-width: 1170px) {
   .u-jumbotron {
     padding: 0.5em 0.4em;
@@ -315,6 +328,10 @@
 
   .u-text-center-sm {
     text-align: center;
+  }
+
+  .u-hidden-sm {
+    display: none;
   }
 }
 
